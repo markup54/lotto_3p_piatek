@@ -12,3 +12,4 @@ C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\refi
 C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.pdb
 C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.genruntimeconfig.cache
 C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\ref\lotto_piatek.dll
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.sourcelink.json
