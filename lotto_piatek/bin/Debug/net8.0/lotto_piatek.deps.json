@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lotto_piatek/1.0.0": {
+        "runtime": {
+          "lotto_piatek.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lotto_piatek/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

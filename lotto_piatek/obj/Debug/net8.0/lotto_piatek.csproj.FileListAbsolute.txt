@@ -1,0 +1,14 @@
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\bin\Debug\net8.0\lotto_piatek.exe
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\bin\Debug\net8.0\lotto_piatek.deps.json
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\bin\Debug\net8.0\lotto_piatek.runtimeconfig.json
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\bin\Debug\net8.0\lotto_piatek.dll
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\bin\Debug\net8.0\lotto_piatek.pdb
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.AssemblyInfoInputs.cache
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.AssemblyInfo.cs
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.csproj.CoreCompileInputs.cache
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.dll
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\refint\lotto_piatek.dll
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.pdb
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\lotto_piatek.genruntimeconfig.cache
+C:\Users\nauczyciel\source\repos\lotto_piatek\lotto_piatek\obj\Debug\net8.0\ref\lotto_piatek.dll
