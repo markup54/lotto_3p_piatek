@@ -1,31 +1,61 @@
 ﻿
-Console.WriteLine("Losowanie liczby");
-//Wylosuj liczbę z zakresu 1..49
-
-Random random = new Random();
-
-int liczba = random.Next(1,50);
-//Console.WriteLine("wylosowana liczba "+liczba);
-
-Console.WriteLine("Zgadnij wylosowaną liczbę");
-
-
-
-for (int i = 0; i < 10; i++)
+void losowaniePojedyncze()
 {
-    Console.WriteLine("podaj liczbę z zakresu 1..49");
-    int zgadywana = int.Parse(Console.ReadLine());
-    if (zgadywana == liczba)
+
+    Console.WriteLine("Losowanie liczby");
+    //Wylosuj liczbę z zakresu 1..49
+
+    Random random = new Random();
+
+    int liczba = random.Next(1, 50);
+    //Console.WriteLine("wylosowana liczba "+liczba);
+
+    Console.WriteLine("Zgadnij wylosowaną liczbę");
+
+
+
+    for (int i = 0; i < 10; i++)
     {
-        Console.WriteLine("Zgadnięto");
-        break;
-    }
-    if(zgadywana < liczba)
-    {
-        Console.WriteLine("Wpisano za mało");
-    }
-    else
-    {
-        Console.WriteLine("Wpisano za dużo");
+        Console.WriteLine("podaj liczbę z zakresu 1..49");
+        int zgadywana = int.Parse(Console.ReadLine());
+        if (zgadywana == liczba)
+        {
+            Console.WriteLine("Zgadnięto");
+            break;
+        }
+        if (zgadywana < liczba)
+        {
+            Console.WriteLine("Wpisano za mało");
+        }
+        else
+        {
+            Console.WriteLine("Wpisano za dużo");
+        }
     }
 }
+
+//losowaniePojedyncze();
+
+void wypiszTablice(int[] tablicaDowypisania)
+{
+    for (int i = 0; i < tablicaDowypisania.Length; i++)
+    {
+        Console.Write(tablicaDowypisania[i] + ";");
+    }
+}
+void wylosujKilkaLiczb(int ileLiczb)
+{
+    int[] liczbyLosowe = new int[ileLiczb];
+    //tablice zawsz mają określony rozmiar podczas działania
+    //programu nie można go zmienić
+    Random random = new Random();
+    for (int i = 0; i < ileLiczb; i++)
+    {
+        liczbyLosowe[i] = random.Next(1, 10);
+    }
+
+    //wypisywanie testowe
+    wypiszTablice(liczbyLosowe);
+
+}
+wylosujKilkaLiczb(7);
