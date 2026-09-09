@@ -51,7 +51,7 @@ void wylosujKilkaLiczb(int ileLiczb)
     Random random = new Random();
     for (int i = 0; i < ileLiczb; i++)
     {
-        liczbyLosowe[i] = random.Next(1, 10);
+        liczbyLosowe[i] = random.Next(1, 50);
     }
 
     //wypisywanie testowe
