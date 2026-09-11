@@ -53,6 +53,14 @@ void wypisz2(List<int> listaDoWypisanie)
     }
 }
 
+void wypisz3(HashSet<int> zbiorDoWypisanie)
+{
+    foreach (int element in zbiorDoWypisanie)
+    {
+        Console.WriteLine(element);
+    }
+}
+
 void wylosujKilkaLiczb(int ileLiczb)
 {
     int[] liczbyLosowe = new int[ileLiczb];
@@ -86,3 +94,48 @@ List<int> wylosujListe(int ileLiczb)
 
 List<int> wylosowaneLiczby = wylosujListe(5);
 wypisz2(wylosowaneLiczby);
+
+List<int> losujLiczbyBezPowtorzen(int ileLiczb)
+{
+    List<int> listaBezPowtorzen = new List<int>();
+    Random random = new Random();
+    int liczba;
+    for(int i = 0; i < ileLiczb; i++)
+    {
+        liczba = random.Next(1,50);
+        while (listaBezPowtorzen.Contains(liczba))
+        {
+            liczba = random.Next(1,50);
+        }
+        listaBezPowtorzen.Add(liczba);
+    }
+    return listaBezPowtorzen;
+}
+
+List<int> listaBezPowtorzen = losujLiczbyBezPowtorzen(20);
+Console.WriteLine("lista bez powtórzeń");
+wypisz2(listaBezPowtorzen);
+
+/*
+ * HashSet
+ * Set
+ * zbiór
+ * elementy bez powtórzeń 
+ * nie są indeksowane
+ */
+
+HashSet<int> wylosujZbior(int ileLiczb)
+{
+    HashSet<int> zbiorLiczb = new HashSet<int>();
+    Random random = new Random();
+    int liczba;
+    while (zbiorLiczb.Count < ileLiczb)
+    {
+        liczba = random.Next(1,50);
+        zbiorLiczb.Add(liczba);
+    }
+    return zbiorLiczb;
+}
+
+Console.WriteLine("Zbiór liczba:");
+wypisz3(wylosujZbior(5));

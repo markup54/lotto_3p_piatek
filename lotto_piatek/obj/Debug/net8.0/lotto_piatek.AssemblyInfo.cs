@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lotto_piatek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cf38030f14bbf792a70bd85a8711cdaca035e00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b91587848b2bc78e7d54883b10102ed5e46be799")]
 [assembly: System.Reflection.AssemblyProductAttribute("lotto_piatek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lotto_piatek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
