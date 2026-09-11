@@ -36,13 +36,23 @@ void losowaniePojedyncze()
 
 //losowaniePojedyncze();
 
-void wypiszTablice(int[] tablicaDowypisania)
+void wypisz(int[] tablicaDowypisania)
 {
     for (int i = 0; i < tablicaDowypisania.Length; i++)
     {
         Console.Write(tablicaDowypisania[i] + ";");
     }
 }
+
+//przeciążanie funkcji wypisz nie działa:( funkcje lokalne nie obsługują przeciążanie
+void wypisz2(List<int> listaDoWypisanie)
+{
+    foreach(int element in listaDoWypisanie)
+    {
+        Console.WriteLine(element);
+    }
+}
+
 void wylosujKilkaLiczb(int ileLiczb)
 {
     int[] liczbyLosowe = new int[ileLiczb];
@@ -55,7 +65,24 @@ void wylosujKilkaLiczb(int ileLiczb)
     }
 
     //wypisywanie testowe
-    wypiszTablice(liczbyLosowe);
+    wypisz(liczbyLosowe);
 
 }
 wylosujKilkaLiczb(7);
+
+List<int> wylosujListe(int ileLiczb)
+{
+    List<int> losowe = new List<int>();
+    //kolekcja może mieć zmieniany rozmiar w trakcie działania 
+    int liczba;
+    Random random = new Random();
+    for(int i = 0; i < ileLiczb; i++)
+    {
+        liczba = random.Next(1,50); //od 1 do 49
+        losowe.Add(liczba);
+    }
+    return losowe;
+}
+
+List<int> wylosowaneLiczby = wylosujListe(5);
+wypisz2(wylosowaneLiczby);
